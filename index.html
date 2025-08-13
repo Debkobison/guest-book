@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+        <link rel="shortcut icon" href="/images/booking lgo.webp" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guest Book | Home</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+                
+            </div>
+        </header>
+        <h1>Guest Book</h1>
+        <p>Select an event and reserve your spot!</p>
+
+        <table id="eventsTable">
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Guests</th>
+                <th>Action</th>
+            </tr>
+        </table>
+
+
+        <div id="reservationModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <h2 id="modalTitle">Reserve Spot</h2>
+                <p id="modalText"></p>
+                <input type="text" id="userName" placeholder="Your Name">
+                <input type="email" id="userEmail" placeholder="Your Email">
+                <br><br>
+                <button id="confirmReserve">Confirm Reservation</button>
+            </div>
+        </div>
+
+        <div id="registrantsList">
+            <h2>Registered People</h2>
+            <div id="registrantsContent">No registrations yet.</div>
+        </div>
+    </body>
+</html>
