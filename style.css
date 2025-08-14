@@ -1,5 +1,5 @@
 .logo img{
-    width: 150px;
+    width: 120px;
 }
 
 header{
@@ -13,8 +13,14 @@ header{
     box-shadow: 0 2px 20px rgb(253, 124, 124);
 }
 
-.headerText{
-    align-items: center;
+header h1 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.spacer {
+    width: 120px; /* same width as logo for symmetry */
 }
 
 body {

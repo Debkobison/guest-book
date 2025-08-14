@@ -1,7 +1,7 @@
 const events = [
-  { name: "Moyin Wedding", date: "02/03/29", guests: 250, registrants: [] },
-  { name: "Tega Naming", date: "02/05/29", guests: 50, registrants: [] },
-  { name: "Femi Birthday", date: "12/08/29", guests: 80, registrants: [] },
+  { name: "Moyin Wedding", date: "02/03/29", guests: 0, registrants: [] },
+  { name: "Tega Naming", date: "02/05/29", guests: 0, registrants: [] },
+  { name: "Femi Birthday", date: "12/08/29", guests: 0, registrants: [] },
 ];
 
 const table = document.getElementById("eventsTable");
